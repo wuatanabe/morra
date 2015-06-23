@@ -1,0 +1,15 @@
+{
+  "name": "morra-web-client",
+  "private": true,
+  "version": "0.0.1",
+  "description": "Web client for morra",
+  "repository": "https://github.com/wuatanabe/morra-web-client",
+  "license": "MIT",
+  "devDependencies": {
+    "bower": "1.4.1",
+    "protractor": "2.1.0"
+  },
+  "scripts": {
+
+  }
+}

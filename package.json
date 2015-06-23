@@ -1,0 +1,36 @@
+{
+  "name": "morra",
+  "version": "0.0.0",
+  "description": "morracinese",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Paolo Freuli <paolo.freuli@gmail.com> (https://github.com/wuatanabe)",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "underscore": "1.8.3",
+    "express": "4.12.4",
+    "socket.io": "1.3.5",
+    "socket.io-client": "1.3.5"
+    },
+      "devDependencies": {
+      "mocha": "2.2.5",
+      "chai" : "3.0.0",
+      "thread-sleep":"1.0.3"
+  },
+    "engines": {
+      "node": ">= 0.10.0"
+  },
+    "files": [
+    "LICENSE",
+    "History.md",
+    "README.md",
+    "index.js",
+    "config.js",
+    "lib/",
+    "config/",
+    "client/",
+    "ws"
+  ]
+}

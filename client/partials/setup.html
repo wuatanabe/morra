@@ -1,0 +1,8 @@
+<div id="developers" ng-controller="SetupCtrl">
+	<h3> Available Players </h3>
+	<table>
+		<tr ng-repeat="dev in developers">
+			<td>  <button ng-click=challenge(dev)> {{dev}} </button></td> 
+		</tr>
+	</table>
+</div>

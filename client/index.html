@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html ng-app="mainApp">
+
+  <head>
+        <script src="/bower_components/angular/angular.js"></script>
+        <script src="/bower_components/angular-cookies/angular-cookies.js"></script>
+        <script src="/bower_components/angular-route/angular-route.js"></script>	
+        <script src="/bower_components/socket.io-client/socket.io.js"></script>	
+        <script src="/bower_components/angular-socket-io/socket.js"></script>		
+	
+    <link rel="stylesheet" href="/public/css/style.css" />
+    <script src="main.js"></script>
+  </head>
+
+  <body ng-controller="MainController">
+
+	<div class="main_container">
+
+			<div class="inner">
+			
+				<div class="container" >
+					<h2><span ng-cloak>{{text}}</span></h2> 				
+				</div>
+
+			</div>
+
+			<div class="inner">
+				
+				
+
+				<ul>
+					<li>{{name}} <a href="#/signup" ng-click=logoff()>{{signaction}}</a></li>
+				</ul>
+
+				<div ng-view></div>
+
+			</div>
+
+	</div>
+
+  </body>
+
+</html>

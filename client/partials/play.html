@@ -1,0 +1,21 @@
+
+<div id="designers" ng-controller="PlayCtrl">
+	<h3>{{name}} playing with {{challenged}}</h3>
+	<table>
+		<tr>
+			<td><button ng-click=move("forbici")> <img src="/public/images/forbici.png" width="75" height="75"/> </button></td> 
+			<td><button ng-click=move("pietra")> <img src="/public/images/pietra.png" width="75" height="75"/> </button></td> 
+			<td><button ng-click=move("carta")> <img src="/public/images/carta.png" width="75" height="75"/> </button></td>
+		</tr>		
+	</table>
+</br>
+</br>
+	<table>
+		<tr>
+			<td>{{name}}</td> <td> {{opponent}}</td> <td>Partial Result</td>
+		</tr>
+		<tr ng-repeat="partialresult in partialresults">
+			<td>{{partialresult.move1}}</td> <td> {{partialresult.move2}}</td> <td> {{partialresult.partialresult}}</td> 
+		</tr>
+	</table>
+</div>

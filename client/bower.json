@@ -1,0 +1,25 @@
+{
+  "name": "morra_client https://github.com/wuatanabe/morra_client",
+  "version": "0.0.1",
+  "description": "angular.js based Web client served morra server",
+  "main": "main.js",
+  "authors": [
+    "Paolo Freuli"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "1.3.16",
+    "angular-cookies": "1.3.16",
+    "angular-route": "~1.4.0",
+    "angular-socket-io": "~0.7.0",
+    "ng-websocket": "~0.2.1",
+    "socket.io-client": "1.3.5"
+  }
+}
